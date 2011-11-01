@@ -1,98 +1,105 @@
-http://fieldscope.org
-http://fieldscope.org/amf/user/login POST username=loadtest&password=l1o2a3d4test!
-http://fieldscope.org/amf/user/logout
-http://fieldscope.org/amf/user/login POST email=loadtest&password=l1o2a3d4test!
-http://fieldscope.org/amf/user/current
-http://fieldscope.org/amf/user/exists GET loadtest
-http://fieldscope.org/amf/ChesapeakeBay/organizations
-http://fieldscope.org/amf/ChesapeakeBay/organizations/stations
-http://fieldscope.org/amf/ChesapeakeBay/user/stations
-http://fieldscope.org/amf/ChesapeakeBay/stations/schema
-http://fieldscope.org/amf/ChesapeakeBay/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40
-http://fieldscope.org/amf/ChesapeakeBay/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true
-http://fieldscope.org/amf/ChesapeakeBay/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&field=name
-http://fieldscope.org/amf/ChesapeakeBay/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true&field=name
-http://fieldscope.org/amf/ChesapeakeBay/observations/schema
-http://fieldscope.org/amf/ChesapeakeBay/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Le 20
-http://fieldscope.org/amf/ChesapeakeBay/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Le 20&matchAll=true
-http://fieldscope.org/amf/ChesapeakeBay/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Le 20&field=DissolvedOxygen
-http://fieldscope.org/amf/ChesapeakeBay/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Le 20&matchAll=true&field=DissolvedOxygen
-http://fieldscope.org/amf/saguaro/organizations
-http://fieldscope.org/amf/saguaro/organizations/stations
-http://fieldscope.org/amf/saguaro/user/stations
-http://fieldscope.org/amf/saguaro/stations/schema
-http://fieldscope.org/amf/saguaro/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40
-http://fieldscope.org/amf/saguaro/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true
-http://fieldscope.org/amf/saguaro/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&field=name
-http://fieldscope.org/amf/saguaro/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true&field=name
-http://fieldscope.org/amf/saguaro/observations/schema
-http://fieldscope.org/amf/saguaro/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40
-http://fieldscope.org/amf/saguaro/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true
-http://fieldscope.org/amf/saguaro/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&field=Online
-http://fieldscope.org/amf/saguaro/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true&field=Online
-http://fieldscope.org/amf/frogwatch/organizations
-http://fieldscope.org/amf/frogwatch/organizations/stations
-http://fieldscope.org/amf/frogwatch/user/stations
-http://fieldscope.org/amf/frogwatch/stations/schema
-http://fieldscope.org/amf/frogwatch/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=habitat_origins Eq Natural 
-http://fieldscope.org/amf/frogwatch/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=habitat_origins Eq Natural&matchAll=true
-http://fieldscope.org/amf/frogwatch/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=habitat_origins Eq Natural&field=name
-http://fieldscope.org/amf/frogwatch/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=habitat_origins Eq Natural&matchAll=true&field=name
-http://fieldscope.org/amf/frogwatch/observations/schema
-http://fieldscope.org/amf/frogwatch/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=callintensity Le 3 
-http://fieldscope.org/amf/frogwatch/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=callintensity Le 3&matchAll=true
-http://fieldscope.org/amf/frogwatch/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=callintensity Le 3&field=field_notes
-http://fieldscope.org/amf/frogwatch/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=callintensity Le 3&matchAll=true&field=field_notes
-http://fieldscope.org/amf/dunes/organizations
-http://fieldscope.org/amf/dunes/organizations/stations
-http://fieldscope.org/amf/dunes/user/stations
-http://fieldscope.org/amf/dunes/stations/schema
-http://fieldscope.org/amf/dunes/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40
-http://fieldscope.org/amf/dunes/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true
-http://fieldscope.org/amf/dunes/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&field=name
-http://fieldscope.org/amf/dunes/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true&field=name
-http://fieldscope.org/amf/dunes/observations/schema
-http://fieldscope.org/amf/dunes/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Light Eq 2
-http://fieldscope.org/amf/dunes/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Light Eq 2&matchAll=true
-http://fieldscope.org/amf/dunes/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Light Eq 2&field=DistanceToShore
-http://fieldscope.org/amf/dunes/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Light Eq 2&matchAll=true&field=DistanceToShore
-http://fieldscope.org/amf/biscayne/organizations
-http://fieldscope.org/amf/biscayne/organizations/stations
-http://fieldscope.org/amf/biscayne/user/stations
-http://fieldscope.org/amf/biscayne/stations/schema
-http://fieldscope.org/amf/biscayne/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=common_name Eq 40
-http://fieldscope.org/amf/biscayne/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=common_name Eq 40&matchAll=true
-http://fieldscope.org/amf/biscayne/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=common_name Eq 40&field=name
-http://fieldscope.org/amf/biscayne/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=common_name Eq 40&matchAll=true&field=name
-http://fieldscope.org/amf/biscayne/observations/schema
-http://fieldscope.org/amf/biscayne/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=elevation Le 10
-http://fieldscope.org/amf/biscayne/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=elevation Le 10&matchAll=true
-http://fieldscope.org/amf/biscayne/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=elevation Le 10&field=location_source
-http://fieldscope.org/amf/biscayne/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=elevation Le 10&matchAll=true&field=location_source
-http://fieldscope.org/amf/UMCES/organizations
-http://fieldscope.org/amf/UMCES/organizations/stations
-http://fieldscope.org/amf/UMCES/user/stations
-http://fieldscope.org/amf/UMCES/stations/schema
-http://fieldscope.org/amf/UMCES/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40
-http://fieldscope.org/amf/UMCES/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true
-http://fieldscope.org/amf/UMCES/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&field=name
-http://fieldscope.org/amf/UMCES/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true&field=name
-http://fieldscope.org/amf/UMCES/observations/schema
-http://fieldscope.org/amf/UMCES/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40
-http://fieldscope.org/amf/UMCES/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true
-http://fieldscope.org/amf/UMCES/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&field=Online
-http://fieldscope.org/amf/UMCES/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true&field=Online
-http://fieldscope.org/amf/TakeAStand/organizations
-http://fieldscope.org/amf/TakeAStand/organizations/stations
-http://fieldscope.org/amf/TakeAStand/user/stations
-http://fieldscope.org/amf/TakeAStand/stations/schema
-http://fieldscope.org/amf/TakeAStand/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40
-http://fieldscope.org/amf/TakeAStand/stations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true
-http://fieldscope.org/amf/TakeAStand/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&field=name
-http://fieldscope.org/amf/TakeAStand/stations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=Salinity Lt 40&matchAll=true&field=name
-http://fieldscope.org/amf/TakeAStand/observations/schema
-http://fieldscope.org/amf/TakeAStand/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=PreQuestion4Disagree Eq 41
-http://fieldscope.org/amf/TakeAStand/observations/query/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=PreQuestion4Disagree Eq 41&matchAll=true
-http://fieldscope.org/amf/TakeAStand/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=PreQuestion4Disagree Eq 41&field=Online
-http://fieldscope.org/amf/TakeAStand/observations/values/bbox=0,0,20,20&before=2009-10-05 15:35:04&after=2009-10-03 15:35:04&constraint=PreQuestion4Disagree Eq 41&matchAll=true&field=Online
-http://fieldscope.org/amf/user/logout
+http://SERVER_ADDRESS
+http://SERVER_ADDRESS/amf/user/login%20POST%20username=loadtest&password=l1o2a3d4test!
+http://SERVER_ADDRESS/amf/user/logout
+http://SERVER_ADDRESS/amf/user/login%20POST%20email=loadtest&password=l1o2a3d4test!
+http://SERVER_ADDRESS/amf/user/current
+http://SERVER_ADDRESS/amf/user/exists%20GET%20loadtest
+http://SERVER_ADDRESS/amf/ChesapeakeBay/organizations
+http://SERVER_ADDRESS/amf/ChesapeakeBay/organizations/stations?organizations=National%20Geographic,AZA
+http://SERVER_ADDRESS/amf/ChesapeakeBay/user/stations?user_id=1
+http://SERVER_ADDRESS/amf/ChesapeakeBay/stations/schema
+http://SERVER_ADDRESS/amf/ChesapeakeBay/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040
+http://SERVER_ADDRESS/amf/ChesapeakeBay/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true
+http://SERVER_ADDRESS/amf/ChesapeakeBay/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&field=name
+http://SERVER_ADDRESS/amf/ChesapeakeBay/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true&field=name
+http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/schema
+http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/query
+http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Le%2020
+http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Le%2020&matchAll=true
+http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Le%2020&field=DissolvedOxygen
+http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Le%2020&matchAll=true&field=DissolvedOxygen
+http://SERVER_ADDRESS/amf/saguaro/organizations
+http://SERVER_ADDRESS/amf/saguaro/organizations/stations?organizations=National%20Geographic,AZA
+http://SERVER_ADDRESS/amf/saguaro/user/stations?user_id=1
+http://SERVER_ADDRESS/amf/saguaro/stations/schema
+http://SERVER_ADDRESS/amf/saguaro/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040
+http://SERVER_ADDRESS/amf/saguaro/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true
+http://SERVER_ADDRESS/amf/saguaro/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&field=name
+http://SERVER_ADDRESS/amf/saguaro/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true&field=name
+http://SERVER_ADDRESS/amf/saguaro/observations/schema
+http://SERVER_ADDRESS/amf/saguaro/observations/query
+http://SERVER_ADDRESS/amf/saguaro/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040
+http://SERVER_ADDRESS/amf/saguaro/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true
+http://SERVER_ADDRESS/amf/saguaro/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&field=Online
+http://SERVER_ADDRESS/amf/saguaro/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true&field=Online
+http://SERVER_ADDRESS/amf/frogwatch/organizations
+http://SERVER_ADDRESS/amf/frogwatch/organizations/stations?organizations=National%20Geographic,AZA
+http://SERVER_ADDRESS/amf/frogwatch/user/stations?user_id=1
+http://SERVER_ADDRESS/amf/frogwatch/stations/schema
+http://SERVER_ADDRESS/amf/frogwatch/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=habitat_origins%20Eq%20Natural%20
+http://SERVER_ADDRESS/amf/frogwatch/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=habitat_origins%20Eq%20Natural&matchAll=true
+http://SERVER_ADDRESS/amf/frogwatch/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=habitat_origins%20Eq%20Natural&field=name
+http://SERVER_ADDRESS/amf/frogwatch/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=habitat_origins%20Eq%20Natural&matchAll=true&field=name
+http://SERVER_ADDRESS/amf/frogwatch/observations/schema
+http://SERVER_ADDRESS/amf/frogwatch/observations/query
+http://SERVER_ADDRESS/amf/frogwatch/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=callintensity%20Le%203%20
+http://SERVER_ADDRESS/amf/frogwatch/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=callintensity%20Le%203&matchAll=true
+http://SERVER_ADDRESS/amf/frogwatch/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=callintensity%20Le%203&field=field_notes
+http://SERVER_ADDRESS/amf/frogwatch/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=callintensity%20Le%203&matchAll=true&field=field_notes
+http://SERVER_ADDRESS/amf/dunes/organizations
+http://SERVER_ADDRESS/amf/dunes/organizations/stations?organizations=National%20Geographic,AZA
+http://SERVER_ADDRESS/amf/dunes/user/stations?user_id=1
+http://SERVER_ADDRESS/amf/dunes/stations/schema
+http://SERVER_ADDRESS/amf/dunes/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040
+http://SERVER_ADDRESS/amf/dunes/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true
+http://SERVER_ADDRESS/amf/dunes/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&field=name
+http://SERVER_ADDRESS/amf/dunes/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true&field=name
+http://SERVER_ADDRESS/amf/dunes/observations/schema
+http://SERVER_ADDRESS/amf/dunes/observations/query
+http://SERVER_ADDRESS/amf/dunes/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Light%20Eq%202
+http://SERVER_ADDRESS/amf/dunes/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Light%20Eq%202&matchAll=true
+http://SERVER_ADDRESS/amf/dunes/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Light%20Eq%202&field=DistanceToShore
+http://SERVER_ADDRESS/amf/dunes/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Light%20Eq%202&matchAll=true&field=DistanceToShore
+http://SERVER_ADDRESS/amf/biscayne/organizations
+http://SERVER_ADDRESS/amf/biscayne/organizations/stations?organizations=National%20Geographic,AZA
+http://SERVER_ADDRESS/amf/biscayne/user/stations?user_id=1
+http://SERVER_ADDRESS/amf/biscayne/stations/schema
+http://SERVER_ADDRESS/amf/biscayne/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=common_name%20Eq%2040
+http://SERVER_ADDRESS/amf/biscayne/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=common_name%20Eq%2040&matchAll=true
+http://SERVER_ADDRESS/amf/biscayne/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=common_name%20Eq%2040&field=name
+http://SERVER_ADDRESS/amf/biscayne/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=common_name%20Eq%2040&matchAll=true&field=name
+http://SERVER_ADDRESS/amf/biscayne/observations/schema
+http://SERVER_ADDRESS/amf/biscayne/observations/query
+http://SERVER_ADDRESS/amf/biscayne/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=elevation%20Le%2010
+http://SERVER_ADDRESS/amf/biscayne/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=elevation%20Le%2010&matchAll=true
+http://SERVER_ADDRESS/amf/biscayne/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=elevation%20Le%2010&field=location_source
+http://SERVER_ADDRESS/amf/biscayne/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=elevation%20Le%2010&matchAll=true&field=location_source
+http://SERVER_ADDRESS/amf/UMCES/organizations
+http://SERVER_ADDRESS/amf/UMCES/organizations/stations?organizations=National%20Geographic,AZA
+http://SERVER_ADDRESS/amf/UMCES/user/stations?user_id=1
+http://SERVER_ADDRESS/amf/UMCES/stations/schema
+http://SERVER_ADDRESS/amf/UMCES/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040
+http://SERVER_ADDRESS/amf/UMCES/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true
+http://SERVER_ADDRESS/amf/UMCES/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&field=name
+http://SERVER_ADDRESS/amf/UMCES/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true&field=name
+http://SERVER_ADDRESS/amf/UMCES/observations/schema
+http://SERVER_ADDRESS/amf/UMCES/observations/query
+http://SERVER_ADDRESS/amf/UMCES/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040
+http://SERVER_ADDRESS/amf/UMCES/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true
+http://SERVER_ADDRESS/amf/UMCES/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&field=Online
+http://SERVER_ADDRESS/amf/UMCES/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true&field=Online
+http://SERVER_ADDRESS/amf/TakeAStand/organizations
+http://SERVER_ADDRESS/amf/TakeAStand/organizations/stations?organizations=National%20Geographic,AZA
+http://SERVER_ADDRESS/amf/TakeAStand/user/stations?user_id=1
+http://SERVER_ADDRESS/amf/TakeAStand/stations/schema
+http://SERVER_ADDRESS/amf/TakeAStand/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040
+http://SERVER_ADDRESS/amf/TakeAStand/stations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true
+http://SERVER_ADDRESS/amf/TakeAStand/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&field=name
+http://SERVER_ADDRESS/amf/TakeAStand/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true&field=name
+http://SERVER_ADDRESS/amf/TakeAStand/observations/schema
+http://SERVER_ADDRESS/amf/TakeAStand/observations/query
+http://SERVER_ADDRESS/amf/TakeAStand/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=PreQuestion4Disagree%20Eq%2041
+http://SERVER_ADDRESS/amf/TakeAStand/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=PreQuestion4Disagree%20Eq%2041&matchAll=true
+http://SERVER_ADDRESS/amf/TakeAStand/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=PreQuestion4Disagree%20Eq%2041&field=Online
+http://SERVER_ADDRESS/amf/TakeAStand/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=PreQuestion4Disagree%20Eq%2041&matchAll=true&field=Online
+http://SERVER_ADDRESS/amf/user/logout
