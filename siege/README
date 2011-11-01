@@ -1,0 +1,4 @@
+To generate a valid load-testing script:
+
+- cat urls.txt | sed -e 's/SERVER_ADDRESS/matt.charles.com:8000/g' > urls2.txt
+- siege -f urls2.txt
