@@ -13,7 +13,6 @@ http://SERVER_ADDRESS/amf/ChesapeakeBay/stations/query?bbox=0,0,20,20&before=200
 http://SERVER_ADDRESS/amf/ChesapeakeBay/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&field=name
 http://SERVER_ADDRESS/amf/ChesapeakeBay/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Lt%2040&matchAll=true&field=name
 http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/schema
-http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/query
 http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Le%2020
 http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Le%2020&matchAll=true
 http://SERVER_ADDRESS/amf/ChesapeakeBay/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=Salinity%20Le%2020&field=DissolvedOxygen
@@ -41,7 +40,6 @@ http://SERVER_ADDRESS/amf/frogwatch/stations/query?bbox=0,0,20,20&before=2009-10
 http://SERVER_ADDRESS/amf/frogwatch/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=habitat_origins%20Eq%20Natural&field=name
 http://SERVER_ADDRESS/amf/frogwatch/stations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=habitat_origins%20Eq%20Natural&matchAll=true&field=name
 http://SERVER_ADDRESS/amf/frogwatch/observations/schema
-http://SERVER_ADDRESS/amf/frogwatch/observations/query
 http://SERVER_ADDRESS/amf/frogwatch/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=callintensity%20Le%203%20
 http://SERVER_ADDRESS/amf/frogwatch/observations/query?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=callintensity%20Le%203&matchAll=true
 http://SERVER_ADDRESS/amf/frogwatch/observations/values?bbox=0,0,20,20&before=2009-10-05%2015:35:04&after=2009-10-03%2015:35:04&constraint=callintensity%20Le%203&field=field_notes
