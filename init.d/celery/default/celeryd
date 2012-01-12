@@ -1,0 +1,11 @@
+# Where the Django project is
+CELERYD_CHDIR="/var/django/production/fieldscope"
+
+# Path to celeryd
+#CELERYD="$CELERYD_CHDIR/manage.py celeryd"
+
+# Path to celeryd-multi
+CELERYD_MULTI="python $CELERYD_CHDIR/manage.py celeryd_multi" 
+
+# Name of the project settings module
+export DJANGO_SETTINGS_MODULE="settings"
