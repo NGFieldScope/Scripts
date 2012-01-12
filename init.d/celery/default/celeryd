@@ -7,5 +7,11 @@ CELERYD_CHDIR="/var/django/production/fieldscope"
 # Path to celeryd-multi
 CELERYD_MULTI="python $CELERYD_CHDIR/manage.py celeryd_multi" 
 
+# Path to celerybeat
+CELERYBEAT="python $CELERYD_CHDIR/manage.py celerybeat"
+
+# Path to virtualenv
+VIRTUALENV="/var/python_env/production"
+
 # Name of the project settings module
 export DJANGO_SETTINGS_MODULE="settings"
