@@ -41,7 +41,12 @@ def convert(csv_file):
     with codecs.open(csv_file, 'rb', encoding) as f:
         csv_reader = _custom_csv_reader(f)
         for i, row in enumerate(csv_reader):
-            attrs = ''
+            attrs = 'map="%s"; component="%s"; agent="%s"; duration="%s"' % (
+                row[7],
+                row[4],
+                row[2],
+                row[5],
+            )
             if i == 0 and row[0] == 'itemName()': #skip
                 continue
             timestamp = datetime.strptime(row[8], '%Y-%m-%dT%H:%M:%S.%f').strftime('%Y-%m-%d %H:%M:%S')
